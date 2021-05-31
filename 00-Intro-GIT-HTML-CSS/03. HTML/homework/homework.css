@@ -1,0 +1,33 @@
+body {
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-position: center center;
+  background-image: url(https://i.pinimg.com/originals/43/21/60/43216038be651654392e7a9f536ebc11.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  color: darkblue;
+  display: flex;
+}
+.container {
+  justify-content: center;
+}
+h1 {
+  color: purple;
+}
+img {
+  width: 400px;
+}
+#thirdDiv {
+  width: 600px;
+  height: 500px;
+  padding: 50px;
+  border: crimson 6px solid;
+  background-color: burlywood;
+}
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
