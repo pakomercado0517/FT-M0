@@ -106,7 +106,8 @@ function esImpar(num) {
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
-  let alCuadrado = num * num;
+  // return Math.pow(num,2);
+  let alCuadrado = num ** 2;
   return alCuadrado;
 }
 
